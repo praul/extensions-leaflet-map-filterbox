@@ -1,19 +1,14 @@
 jQuery(document).ready(function(){
     var leafletext_state = leafletext2_filterbox_data;
     var leafletext_inside = leafletext2_filterbox_inside;
-    console.log (leafletext_state);
-    console.log (leafletext_inside);
 
     //Move Filterbox
     if (leafletext_inside > 0) {
       leafletext_filterbox_wait('.leaflet-top.leaflet-right').then((el) => {
-        console.log('Element is ready');
-        console.log(el.textContent);
         jQuery("#leafletext-filterbox").appendTo('.leaflet-top.leaflet-right');
       });
     }
 
-  
     //Listener
     jQuery('.leaflet-filterbox-filter').each(function(){
       jQuery(this).on('change', function(){
@@ -36,7 +31,6 @@ jQuery(document).ready(function(){
       jQuery('.leaflet-marker-pane > img, .leaflet-marker-pane > div').each(function(){jQuery(this).hide();});
       
       leafletext_state.forEach((item) => {
-        console.log('.' + item.class)
         if (item.val === 1) {jQuery('.' + item.class).parent().show();}
       });
     }
