@@ -12,3 +12,8 @@ Works only with svg marker shortcode, because it needs "iconClass" for categoriz
 
 Shortcode for filterbox is same like in hupe13/extensions-leaflet-map-github, except you can also specify, if filterbox should be inside the map container (leaflet top right) or where the shortcode is placed
     ```[leaflet-filterbox values="category_1, category_2" groups="Wonderful Adventures, Boring Entertainment" inside="1"]```
+
+
+
+https://github.com/praul/extensions-leaflet-map-filterbox/assets/38807639/3fe7d13d-11da-464f-999f-8c9c975de2f8
+
