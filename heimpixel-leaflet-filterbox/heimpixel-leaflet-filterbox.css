@@ -1,0 +1,25 @@
+#leafletext-filterbox ul li {
+  list-style-type: none;
+  margin: 0;
+}
+
+#leafletext-filterbox ul {
+  margin: 0;
+}
+
+#leafletext-filterbox label {
+  user-select: none;
+}
+
+.leafletext-filterbox-inner label {
+  display: inline !important;
+}
+
+.leafletext-filterbox-outside {
+  margin: 10px 0;
+  display: inline-block;
+  background: #f0f0f0;
+  padding: 10px;
+  min-width: 200px;
+}
+
